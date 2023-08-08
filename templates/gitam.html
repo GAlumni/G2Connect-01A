@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-CONNECT | ABOUT GITAM</title>
+    <link rel="stylesheet" href="../static/styles/gitam.css">
+    <link rel="shortcut icon" href="../static/img/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d82f3ed1b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="../static/img/download.jpeg" class="logo">
+        <ul>
+            <li><a href="{{url_for('index')}}"><i class="fa-solid fa-house fa-2x"></i></a></li>
+            <li><a href="{{url_for('about')}}"><i class="fa-solid fa-address-card fa-2x" id="submit"></i></a></li>
+        </ul>
+    </div>
+    <div class="hhh">
+        <h1>About <span class="hdd">GITAM</span></h1>
+        <p>\\\\\\\\\\\\\\\\\\\\</p>
+        <p>]]]]]]]]]]]]]]]</p>
+    </div>
+    <!-- <div class="bar">
+        <div class="line1">|</div>
+        <div class="line2">|</div>
+        <div class="line3">|</div>
+    </div> -->
+    <div class="part1">
+        <div class="box">
+            <div class="image">
+                <img src="../static/img/kappa.jpg" alt="">
+            </div>
+            <div class="text">
+                <div class="text1">
+                    <p>Gandhi Institute of Technology and Management, popularly known as <span class="hdc">GITAM</span>, is a private deemed university located in Visakhapatnam, Hyderabad and Bengaluru. The university was founded by the late Dr M. V. V. S. Murthi in Visakhapatnam in 1980. It was previously affiliated with Andhra University under the name <span class="hdc">GITAM</span> College, then gained autonomy status in the year 2007.<br>
+                        
+                    The campus in Visakhapatnam is the oldest of the bunch. It spreads across a little over 100 acres. Collectively, the three campuses have 19 institutions under their wing.</p>
+                </div>
+                <div class="text2">
+                    <p><span class="hdc">GITAM</span> is a host to many student activities both professional and cultural. <span class="hdc">GITAM</span> University Science & Activity Centre, professional societies include ASME, SAE, Indian Society for Technical Education, IEEE, Computer Society of India, IETE, IEI, ISOI and Engineers Without Borders. Cultural societies include Kalakriti, G-studio, G-Mag, E-Cell, Toastmasters International, National Cadet Corps, National Service Scheme and other community services like Rotaract and Vivan.</p>
+                </div>
+            </div>
+        </div><hr>
+        <div class="part">
+            <div class="title">
+                <p class="links active" onclick="opentab('skills')">PACKAGES</p>
+                <p class="links" onclick="opentab('education')">RECRUIT COUNT</p>
+            </div>
+            <div class="content tab" id="skills">
+                    <div class="chartCard">
+                        <div class="chartBox">
+                          <canvas id="myChart"></canvas>
+                        </div>
+                    </div>
+            </div>
+            <div class="content" id="education">
+                <div class="stii">
+                    <div class="title">
+                        <p class="link activate" onclick="opentab2('2023')" id="srd">2023</p>
+                        <p class="link" onclick="opentab2('2022')" id="sy">2022</p>
+                        <p class="link" onclick="opentab2('2021')" id="sp">2021</p>
+                        <p class="link" onclick="opentab2('2020')" id="ep">2020</p>
+                    </div>
+                </div>
+                <div class="conten tab1" id="2023">
+                    <div class="class1">
+                        <div class="box1">
+                            <canvas id="myChart1" class="sss"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="conten" id="2022">
+                    <div class="box1">
+                        <canvas id="myChart2" class="sss"></canvas>
+                    </div>
+                </div>
+                <div class="conten" id="2021">
+                    <div class="box1">
+                        <canvas id="myChart3" class="sss"></canvas>
+                    </div>
+                </div>
+                <div class="conten" id="2020">
+                    <div class="box1">
+                        <canvas id="myChart4" class="sss"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="part2" id="part2">
+        
+    </div>
+</body>
+<script src="../static/js/gitam.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+<script src="../static/js/gitam2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../static/js/gitam4.js"></script>
+</html>

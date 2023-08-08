@@ -1,0 +1,165 @@
+{
+  "intents":[
+    {
+      "tag":"greeting",
+      "patterns":[
+        "hi", 
+        "Hey there", 
+        "Hello", 
+        "Namaste", 
+        "hii", 
+        "hello there", 
+        "Is anyone there?", 
+        "I need help", 
+        "Can i get help", 
+        "I have a query",
+        "I have a question", 
+        "I have doubt", 
+        "I need information", 
+        "Help me", 
+        "i need info", 
+        "hey"
+      ],
+      "responses":[
+        "Greetings! how may I address you?",
+        "Thank you for tuning with us. What is your query?",
+        "We appreciate you tuning in. How may I help you?",
+        "Hello, how may I assist you?",
+        "I'm here to assist you. How may I?",
+        "Hi there, how may I serve you?"
+      ]
+    },
+    {
+      "tag":"about",
+      "patterns":[
+        "tell me about GITAM",
+        "information about GITAM", 
+        "How is GITAM college",
+        "Some details about GITAM",
+        "I want to know about GITAM",
+        "Is GITAM a good choice for students",
+        "GITAM complete information"
+      ],
+      "responses":[
+        "The Gandhi Institute of Technology And Management, popularly known as GITAM, was founded in 1980 by an inspired group of eminent intellectuals and industrialists of Andhra Pradesh led by Dr. M. V. V. S. Murthi, former Member of Parliament and popular philanthropist.  To become a global leader in higher education. Our vision is to become a global leader in higher education. Our mission is to impart futuristic and comprehensive education of global standards with a high sense of discipline and social relevance in a serene and invigorating environment.", 
+        "The Gandhi Institute of Technology and Management, or GITAM for brief, was established in 1980 by a group of notable Andhra Pradesh intellectuals and industrialists, led by Dr. M. V. V. S. Murthi, a former member of parliament and well-known philanthropist. Our vision is to become a global leader in higher education. Our mission is to impart futuristic and comprehensive education of global standards with a high sense of discipline and social relevance in a serene and invigorating environment.", 
+        "The Gandhi Institute of Technology And Management, or GITAM, emerged in 1980 by an inspired group of Andhra Pradesh's notable intellectuals and industrialists led by Dr. M. V. V. S. Murthi, a former Member of Parliament and well-known philanthropist. Our vision is to become a global leader in higher education. Our mission is to impart futuristic and comprehensive education of global standards with a high sense of discipline and social relevance in a serene and invigorating environment.", 
+        "GITAM, also referred to as the Gandhi Institute of Technology and Management, was established in 1980 by a group of prominent Andhra Pradesh intellectuals and industrialists, led by Dr. M. V. V. S. Murthi, a former member of parliament and well-known philanthropist. Our vision is to become a global leader in higher education. Our mission is to impart futuristic and comprehensive education of global standards with a high sense of discipline and social relevance in a serene and invigorating environment.", 
+        "The Gandhi Institute of Technology And Management, or GITAM, was founded in 1980 by an inspired group of Andhra Pradesh's eminent intellectuals and industrialists led by Dr. M. V. V. S. Murthi, a former Member of Parliament and well-known philanthropist. Our vision is to become a global leader in higher education. Our mission is to impart futuristic and comprehensive education of global standards with a high sense of discipline and social relevance in a serene and invigorating environment."
+      ]
+    },
+    {
+      "tag":"fees",
+      "patterns":[
+        "What is fee structure of gitam",
+        "Total fees of gitam",
+        "How much is fees in gitam",
+        "Tell about fees for gitam",
+        "Complete expenses for studying in gitam",
+        "tution fees of gitam",
+        "GITAM college fees" 
+      ],
+      "responses":[
+        "These are the overall expenses: Engineering = 3lacs, Science = 1.5lacs, Medical = 20lacs, Management = 1lacs-1.5 lacs ", 
+        "The overall expenditure is as follows: Engineering = 3lacs, Science = 1.5lacs, Medical = 20lacs, Management = 1lacs-1.5 lacs", 
+        "Following are the total cost: Engineering = 3lacs, Science = 1.5lacs, Medical = 20lacs, Management = 1lacs-1.5 lacs", 
+        "The overall fees are listed below: Engineering = 3lacs, Science = 1.5lacs, Medical = 20lacs, Management = 1lacs-1.5 lacs", 
+        "The aggregate course expenses are as follows: Engineering = 3lacs, Science = 1.5lacs, Medical = 20lacs, Management = 1lacs-1.5 lacs"
+      ]
+    },
+    {
+      "tag":"intern_place",
+      "patterns":[
+        "tell me about internship in GITAM",
+        "how students get internship in GITAM",
+        "Do students get internship in GITAM",
+        "How much students get paid in internship from GITAM",
+        "Will I get internship in GITAM",
+        "What opportunities are there for GITAM students regarding internship",
+        "How are placement in GITAM",
+        "Do students get placed in GITAM",
+        "In which companies do GITAM students gets placements",
+        "How GITAM gives job",
+        "Can you tell me more about GITAM's placement and internship opportunities"
+      ],
+      "responses":[
+        "For further details, please login to the website or contact 0891-2790101 / 202",
+        "To learn more, log on to the website or call 0891-2790101 / 202",
+        "Please visit the website or call 0891-2790101 / 202 for further information",
+        "Please log in to the website or call 0891-2790101 / 202 for further information",
+        "For more information, please visit the website or call 0891-2790101 / 202.",
+        "For further information, please visit the website or call 0891-2790101 / 202."
+      ]
+    },
+    {
+      "tag":"reach",
+      "patterns":[
+        "what is the location of gitam",
+        "how to reach GITAM University",
+        "where is GITAM",
+        "tell me address of GITAM",
+        "how can I find GITAM",
+        "how to go to GITAM University"
+      ],
+      "responses":[
+        "Address - Gandhinagar, Rushikonda, Vishakhapatnam, Andhra Pradesh -530045. Contact details- 0891-2790101/202",
+        "Explore the college at Gandhinagar, Rushikonda, Vishakhapatnam, Andhra Pradesh, 530045. Alternatively, you can reach us at 0891-2790101/202", 
+        "Visit the college - Gandhinagar, Rushikonda, Vishakhapatnam, Andhra Pradesh -530045. Or Contact us on 0891-2790101/202", 
+        "Pay a visit to the college at Gandhinagar, Rushikonda, Vishakhapatnam, Andhra Pradesh, 530045. Or call 0891-2790101/202 to reach us",
+        "The college is located in Gandhinagar, Rushikonda, Vishakhapatnam, Andhra Pradesh, 530045. You can also call us at 0891-2790101/202"
+      ]
+    },
+    {
+      "tag":"admission",
+      "patterns":[
+        "what is procedure for admission in GITAM",
+        "Can you tell me about GITAM admissions",
+        "ways to get in GITAM",
+        "how to get enter into GITAM University",
+        "how to get into GITAM college",
+        "which exam to give for GITAM",
+        "through which all entrance exams i can get into GITAM",
+        "Which all exams are accepted by GITAM"
+      ],
+      "responses":[
+        "You can apply through a number of scholarships, including GATE, JEE Mains, AP EAMCET, SAKSHAM SCHOLARSHIP and others. For more details visit the college or contact 0891-2790101",
+        "You can apply for a variety of scholarships, including GATE, JEE Mains, AP EAMCET, SAKSHAM SCHOLARSHIP, and others. For additional information, visit the college or call 0891-2790101",
+        "You can submit an application for a number of scholarships, like the SAKSHAM SCHOLARSHIP, GATE, JEE Mains, and others. Visit the college or call 0891-2790101 for further information", 
+        "GATE, JEE Mains, AP EAMCET, SAKSHAM SCHOLARSHIP, and other scholarships are just a few of the scholarships that you may apply for. For more information visit the college or contact 0891-2790101", 
+        "Numerous scholarships are accepted, including the SAKSHAM SCHOLARSHIP, GATE, JEE Mains, and AP EAMCET. For additional information, visit the college or call 0891-2790101"
+      ]
+    },
+    {
+      "tag":"goodbye",
+      "patterns":[
+        "bye", 
+        "goodbye", 
+        "thank you", 
+        "thank you for addressing my query", 
+        "thank you very much", 
+        "thank you so much", 
+        "thanks for the help",
+        "thanks for the information", 
+        "i am done", 
+        "thanks", 
+        "ok i got it", 
+        "ok", 
+        "done that's it", 
+        "okay", 
+        "thanks for addressing issue",
+        "ok I understood", 
+        "thanks for help", 
+        "you helped a lot", 
+        "done"
+      ],
+      "responses":[
+        "Until next time, bye. Have a good day.",
+        "Thanks and I'll see you later",
+        "Thank you and I hope I was able to address your question",
+        "We appreciate your visit and your quality time", 
+        "Thank you for visiting us and spending your valuable time with us",
+        "Bye, catch you later. We appreciate your presence"
+      ]
+    }
+ ]
+}

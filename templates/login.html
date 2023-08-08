@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-CONNECT | LOGIN</title>
+    <link rel="stylesheet" href="../static/styles/login.css">
+    <link rel="shortcut icon" href="../static/img/favicon-16x16.png" type="image/x-icon">
+    <!-- <meta name="google-signin-client_id" content="455392782572-bdpfe9umo20nkkbcv65ua850j6h3otee.apps.googleusercontent.com"> -->
+    <!-- <meta name="google-signin-client_id" content="389156931335-damruk631a6m7gvujhqtbs0se7mfc9tc.apps.googleusercontent.com"> -->
+
+    <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
+    <script src="https://kit.fontawesome.com/d82f3ed1b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="../static/img/download.jpeg" class="logo">
+        <ul>
+            <li><a href="{{url_for('index')}}"><i class="fa-solid fa-house fa-2x"></i></a></li>
+            <li><a href="{{url_for('signUp')}}"><i class="fa-solid fa-user-plus fa-2x"></i></a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h1>LOGIN HERE!!!</h1>
+        <div class="duel">
+            <div class="manual">
+                <form>
+                    <div class="user-box">
+                      <input type="number" name="rno" id="regno" required>
+                      <label for="rno">Reg Number<span>*</span></label>
+                    </div>
+                    
+                    <div class="user-box">
+                      <input type="password" name="pass1" id="password" required>
+                      <label for="pass1">Enter Password<span>*</span></label>
+                    </div>
+                  </form>
+                  <button type="button" class="btn" id="loginbtn" name="submitData">Submit</button>
+                  <div id="error"></div><hr class="hr">
+                  <p class="ccc">or</p>
+                  <div class="gitam">
+                    <div class="btn" id="glogin"><i class="fa-brands fa-google"></i>  ╰┈➤ Login</div>
+                </div><hr>
+                <p class="cls">Forgot Password? ➣<a href="{{url_for('ForgetPasswordPage')}}" class="fff">Click Here</a></p>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="../static/js/login.js"></script>
+<!-- <script src="../static/js/login2.js"></script> -->
+</html>

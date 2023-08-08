@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Lato', sans-serif;
+}
+.logo{
+    width: 77px;
+}
+.container{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #991f2c;
+}
+.container ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+    position: relative;
+    /* border-bottom: 3.5px solid crimson; */
+}
+.container ul li a::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 3px;
+    background: aliceblue;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.container ul li a:hover::after{
+    width: 100%;
+}
+.main h1{
+    text-align: center;
+    font-size: 57px;
+    margin-top: 70px;
+}
+
+.manual {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+  }
+  .manual .user-box {
+    position: relative;
+  }
+  
+  .manual .user-box input {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid Black;
+    outline: none;
+    background: transparent;
+    text-align: center;
+  }
+  .manual .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .manual .user-box input:focus ~ label,
+  .manual .user-box input:valid ~ label {
+    top: -20px;
+    left: 40%;
+    color: #991f2c;
+    font-size: 12px;
+  }
+.btn{
+    display: block;
+    height: auto;
+    min-height: fit-content;
+    padding: 20px 60px;
+    color: aliceblue;
+    background-color: black;
+    border: 2px solid aliceblue;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor:pointer ;
+    transition: 0.2s;
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+.manual button:hover{
+    transform: scale(1.1);
+}
+span{
+    color: crimson;
+}
+.gitam{
+    margin-left: -50px;
+    margin-right: 50px;
+}
+.gitam button{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px 0;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor:pointer ;
+    transition: 0.2s;
+}
+.gitam .btn:hover{
+    transform: scale(1.07);
+}
+.hr{
+    margin-top: 20px;
+}
+.ccc{
+    position: relative;
+    width: 33px;
+    margin-left: 175px;
+    background-color: aliceblue;
+    top: -21px;
+    font-size: 29px;
+    padding: 0 10px;
+}
+
+.fff{
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.cls{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .main h1{
+        margin-top: 56px;
+        font-size: 50px;
+    }
+    .container{
+        width: 90%;
+    }
+    .manual{
+        top: 60%;
+        width: 300px;
+        left: 50%;
+    }
+    .manual button{
+        margin-left: 73px;
+    }
+    .ccc{
+        margin-left: 120px;
+    }
+    .btn{
+        margin-left: 21px;
+        margin-right: -76px;
+        padding: 20px 40px;
+    }
+}

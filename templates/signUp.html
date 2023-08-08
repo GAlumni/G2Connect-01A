@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-CONNECT | SIGN UP</title>
+    <link rel="stylesheet" href="../static/styles/signup.css">
+    <link rel="shortcut icon" href="../static/img/favicon-16x16.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d82f3ed1b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="../static/img/download.jpeg" class="logo">
+        <a href="{{url_for('index')}}"><i class="fa-solid fa-house fa-2x"></i></a>
+    </div>
+    <div class="main">
+        <h1>REGISTER HERE!!!</h1>
+        <div class="duel">
+            <div class="manual">
+                <form>
+                    <div class="user-box">
+                      <input type="text" name="fname" id="fname" required>
+                      <label for="fname">Name<span>*</span></label>
+                    </div>
+                    <div class="user-box">
+                      <input type="number" name="rno" id="regno" required>
+                      <label for="rno">Reg Number<span>*</span></label>
+                    </div>
+                    <div class="user-box">
+                      <input type="email" name="mail" id="email" required>
+                      <label for="mail">Mail Id<span>*</span></label>
+                    </div>
+                    <div class="user-box">
+                      <input type="password" name="pass1" id="password" required>
+                      <label for="pass1">Enter Password<span>*</span></label>
+                    </div>
+                    <div class="user-box">
+                      <input type="password" name="pass2" id="cpassword" required>
+                      <label for="pass2">Confirm Password<span>*</span></label>
+                    </div>
+                    <div class="cb">
+                        <input type="checkbox" id="chk">  I accept and confirm my details<span>*</span>
+                    </div>
+                    <div class="user-box" id="security">
+                      <p>Security Pin: </p><div id="pin" onmousedown="return false" onselectstart="return false" oncopy="return false" oncut="return false">123456</div>
+                      <input type="text" id="pincheck" name="pin" placeholder="Enter Security Pin" onpaste="return false">
+                    </div>
+                  </form>
+                  <button type="button" id="submitData" name="submitData">Submit</button>
+                  <div id="error"></div><hr>
+                  <p class="ppp">Already registered? ➣<a href="{{url_for('login')}}" class="sss">Login</a></p>
+                  
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="../static/js/signUp.js"></script>
+</html>

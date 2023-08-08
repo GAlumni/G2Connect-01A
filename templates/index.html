@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-CONNECT</title>
+    <link rel="shortcut icon" href="../static/img/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href='../static/styles/index.css'>
+    <script src="https://kit.fontawesome.com/d82f3ed1b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div id="preloader"></div>
+        <div class="container">
+            <img src="../static/img/download.jpeg" class="logo">
+            <ul>
+                <!-- <li><a href="login.html">LOGIN</a></li> -->
+                <li><a href="{{url_for('login')}}"><i class="fa-solid fa-right-to-bracket fa-2x"></i></a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>WELCOME TO G-ALUMNI 2.0</h1>
+            <p>HERE YOU GET INFORMATION ABOUT INTERNSHIPS, PLACEMENTS AND MANY MORE</p>
+        </div>
+        <div class="main">
+            <a href="{{url_for('signUp')}}" class="a1">GET STARTED</a>
+            <a href="{{url_for('gitam')}}" class="a2">ABOUT GITAM</a>
+        </div>
+        <div class="chat">
+            <div class="chatbox">
+                <div class="chatbox__support">
+                    <div class="chatbox__header">
+                        <div class="chatbox__image--header">
+                            <img src="../static/img/chatbot.jpg" alt="image">
+                        </div>
+                        <div class="chatbox__content--header">
+                            <h4 class="chatbox__heading--header">Chat support</h4>
+                            <p class="chatbox__description--header">Hi. My name is <span>G-Bot</span>. How can I help you?</p>
+                        </div>
+                    </div>
+                    <div class="chatbox__messages">
+                        <div></div>
+                    </div>
+                    <div class="chatbox__footer">
+                        <input type="text" placeholder="Write a message...">
+                        <button class="chatbox__send--footer send__button">Send</button>
+                    </div>
+                </div>
+                <div class="chatbox__button">
+                    <!-- <button><img src="chatbox-icon.svg" /></button> -->
+                    <button><i class="fa-solid fa-comments"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <p>&copy; 2023 Gitam University | All Rights Reserved.</p>
+        </div>
+        
+</body>
+<script type=text/javascript src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
+</script>
+<script type="text/javascript" src="../static/js/index.js"></script>
+<script type="text/javascript" src="../static/js/app.js"></script>
+</html>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F5onIgMSyVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
